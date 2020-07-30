@@ -1,0 +1,40 @@
+{
+  "editor.formatOnSave": true,
+  "typescriptHero.imports.organizeOnSave": true,
+  "typescriptHero.imports.insertSpaceBeforeAndAfterImportBraces": true,
+  "eslint.enable": true,
+  "eslint.validate": ["typescript", "typescriptreact"],
+  "editor.codeActionsOnSave": {
+    // "source.fixAll": true
+    // "source.organizeImports": true
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "typescriptHero.imports.disableImportsSorting": true,
+  "autoimport.useSemiColon": false,
+  "autoimport.doubleQuotes": false,
+  "autoimport.spaceBetweenBraces": true,
+  "prettier.configPath": ".prettierrc",
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "all",
+  "prettier.semi": false,
+  "prettier.tabWidth": 2,
+  "prettier.printWidth": 120,
+  "terminal.explorerKind": "external",
+  "react-i18n.i18nPaths": "src/locales",
+  "react-native": {
+    "packager": {
+      "port": 19006
+    }
+  }
+}

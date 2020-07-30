@@ -1,0 +1,48 @@
+node_modules/**/*
+.expo/*
+npm-debug.*
+*.jks
+*.p12
+*.key
+*.mobileprovision
+storybook-static
+.DS_Store
+.cache-loader
+.reg
+__screenshots__
+public
+web-build
+public_storybook/*
+bin/*
+.env
+coverage/
+.env
+.jest-test-results.json
+lib
+
+# @generated: @expo/next-adapter@2.0.0-beta.10
+/.expo/*
+# Expo Web
+/web-build/*
+/web-report/*
+# Expo Native
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+# Next.js
+/.next/*
+/out/
+# Next.js production
+/build/
+# Next.js dependencies
+/.pnp
+.pnp.js
+# @end @expo/next-adapter
+public_storybook
+.now
+reports/*
+
+.vercel

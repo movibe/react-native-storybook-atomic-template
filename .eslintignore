@@ -1,0 +1,13 @@
+node_modules
+@types
+src/server/types.*
+reports/
+coverage/
+dist/
+e2e/
+locales/
+assets/
+babel.config.js
+coverage/
+__tests__/
+lib/

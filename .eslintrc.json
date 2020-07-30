@@ -1,0 +1,116 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "extends": [
+    "plugin:react-native/all",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier/@typescript-eslint"
+  ],
+  "plugins": ["@typescript-eslint", "react", "react-native", "react-hooks"],
+  "env": {
+    "es6": true,
+    "node": true,
+    "jest": true,
+    "react-native/react-native": true
+  },
+  "parserOptions": {
+    "project": "./tsconfig.json",
+    "ecmaFeatures": {
+      "jsx": true,
+      "impliedStrict": true
+    },
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "globals": {
+    "ios": false,
+    "android": false,
+    "windowHeight": false,
+    "windowWidth": false,
+    "hairlineWidth": false,
+    "DeviceInfo": false,
+    "isIphoneX": false,
+    "StatusBarHeight": false,
+    "HeaderHeight": false
+  },
+  "rules": {
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "global-require": 0,
+    "linebreak-style": 0,
+    "prefer-const": 0,
+    "no-console": [
+      "warn",
+      {
+        "allow": ["warn", "error", "log", "info", "disableYellowBox"]
+      }
+    ],
+    "no-param-reassign": [
+      "error",
+      {
+        "props": false
+      }
+    ],
+    "no-restricted-globals": 0,
+    "no-unused-vars": 0,
+    "no-use-before-define": 0,
+    "semi": 0,
+    "no-extra-semi": "off",
+    "no-underscore-dangle": 0,
+    "no-useless-constructor": 0,
+    "prefer-promise-reject-errors": 0,
+    "no-unused-expressions": 0,
+    "no-plusplus": 0,
+    "default-case": 0,
+    "no-nested-ternary": 0,
+    "lines-between-class-members": [
+      1,
+      "always",
+      {
+        "exceptAfterSingleLine": true
+      }
+    ],
+    "prefer-destructuring": 1,
+    "no-return-assign": 0,
+    "max-classes-per-file": 0,
+    "import/prefer-default-export": 0,
+    "react/prefer-stateless-function": 0,
+    "react/destructuring-assignment": 0,
+    "react/prop-types": 0,
+    "react/react-in-jsx-scope": 0,
+    "react/jsx-props-no-spreading": 0,
+    "react/jsx-filename-extension": [
+      2,
+      {
+        "extensions": [".jsx", ".tsx"]
+      }
+    ],
+    "jsx-a11y/accessible-emoji": 0,
+    "react/static-property-placement": 0,
+    "react-native/no-color-literals": 0,
+    "import/no-unresolved": 0,
+    "react-native/no-raw-text": 0,
+    "react-native/no-inline-styles": 0,
+    "react-native/sort-styles": 0,
+    "react-native/split-platform-components": 0,
+    "@typescript-eslint/explicit-member-accessibility": [
+      2,
+      {
+        "accessibility": "no-public"
+      }
+    ],
+    "import/extensions": 0,
+    "consistent-return": 0,
+    "@typescript-eslint/no-empty-interface": 0,
+    "@typescript-eslint/no-empty-function": 0,
+    "@typescript-eslint/explicit-function-return-type": 0,
+    "@typescript-eslint/no-explicit-any": 0,
+    "@typescript-eslint/interface-name-prefix": 0,
+    "@typescript-eslint/no-use-before-define": 0,
+    "@typescript-eslint/no-unused-vars": 0,
+    "@typescript-eslint/no-non-null-assertion": 0,
+    "@typescript-eslint/camelcase": 0,
+    "@typescript-eslint/ban-ts-ignore": 0,
+    "@typescript-eslint/no-inferrable-types": 0
+  }
+}

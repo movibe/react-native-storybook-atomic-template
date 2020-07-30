@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Atom/TextInput should render snapshot 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#fff",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "height": "100vh",
+      },
+    ]
+  }
+>
+  <View
+    accessible={false}
+    style={
+      Array [
+        undefined,
+        Object {
+          "alignItems": undefined,
+          "borderColor": undefined,
+          "borderWidth": 0,
+          "flex": 1,
+          "flexDirection": "column",
+          "justifyContent": undefined,
+          "padding": 10,
+        },
+      ]
+    }
+    testID="View_View"
+  >
+    <TextInput
+      accessible={false}
+      allowFontScaling={true}
+      onChangeText={
+        [MockFunction] {
+          "calls": Array [
+            Array [
+              "oi",
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        }
+      }
+      rejectResponderTermination={true}
+      testID="TextInput_Teste"
+      underlineColorAndroid="transparent"
+      value=""
+    />
+  </View>
+</View>
+`;
