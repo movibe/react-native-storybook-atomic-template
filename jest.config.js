@@ -8,16 +8,7 @@ module.exports = {
   transformIgnorePatterns: [
     'node_modules/(?!(jest-)?react-native|@codler/react-native-keyboard-aware-scroll-view|react-clone-referenced-element|@react-native-community|expo(nent)?|@expo(nent)?/.*|react-navigation|@react-navigation/.*|@unimodules/.*|unimodules|sentry-expo|native-base|@sentry/.*)',
   ],
-  reporters: [
-    'default',
-    [
-      'jest-sonar',
-      {
-        outputDirectory: 'reports/',
-        outputName: 'jest-report.xml',
-      },
-    ],
-  ],
+  reporters: ['default'],
   coverageDirectory: 'reports/',
   coveragePathIgnorePatterns: [
     '<rootDir>/node_modules/',
