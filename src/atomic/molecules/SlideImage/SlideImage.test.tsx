@@ -63,8 +63,4 @@ describe('Molecules/SlideImage', () => {
     const sut = await getAllByTestId(image)
     expect(sut).toHaveLength(props.images.length)
   })
-
-  it(`should render snapshot`, () => {
-    expect(toJSON()).toMatchSnapshot()
-  })
 })
